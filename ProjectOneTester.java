@@ -1,7 +1,7 @@
 public class ProjectOneTester {
     public static void main(String[] args) {
     // Create a Student object
-    Student student = new Student("Michael Guo", "501295175");
+    Student student = new Student("John Doe", "123456789");
 
     // Add courses to the academic record with grades
     student.addCourse(new Course("Calculus", "MTH 207", 3, 87.5));
