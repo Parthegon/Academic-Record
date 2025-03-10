@@ -44,7 +44,7 @@ public class AcademicRecord {
         
         Course highest = courses.get(0);
         for (Course course: courses) {
-            if (course.getCourseCredit() > highest.getCourseCredit()) {
+            if (course.getCourseGrade() > highest.getCourseGrade()) {
                 highest = course;
             }
         }
@@ -57,7 +57,7 @@ public class AcademicRecord {
         
         Course lowest = courses.get(0);
         for (Course course: courses) {
-            if (course.getCourseCredit() < lowest.getCourseCredit()) {
+            if (course.getCourseGrade() < lowest.getCourseGrade()) {
                 lowest = course;
             }
         }
